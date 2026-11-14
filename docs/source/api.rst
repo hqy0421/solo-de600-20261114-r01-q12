@@ -15,6 +15,7 @@ Stream
    Stream.disconnect
    Stream.visualize
    accumulate
+   band_join
    buffer
    collect
    combine_latest
@@ -25,6 +26,7 @@ Stream
    map_async
    partition
    rate_limit
+   sample_pairs
    scatter
    sink
    sink_to_textfile
@@ -37,6 +39,9 @@ Stream
    pluck
    zip
    zip_latest
+
+.. autosummary::
+   BandJoinIndex
 
 .. automethod:: Stream.connect
 .. automethod:: Stream.disconnect
